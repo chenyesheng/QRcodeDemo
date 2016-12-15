@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QRcodeDemo</string>
+    <string name="scan_text">将二维码放入框内扫描</string>
+</resources>
