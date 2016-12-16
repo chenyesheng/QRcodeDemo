@@ -4,16 +4,35 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入需要生成二维码内容" />
+
     <Button
         android:id="@+id/btn_generate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="生产二维码" />
+        android:text="生成二维码" />
 
     <Button
         android:id="@+id/btn_scan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="扫描/识别二维码" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存二维码到手机" />
+
+    <ImageView
+        android:id="@+id/iv_qrcode"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
 
 </LinearLayout>

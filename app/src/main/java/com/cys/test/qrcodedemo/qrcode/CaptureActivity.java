@@ -18,7 +18,6 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -567,7 +566,7 @@ public final class CaptureActivity extends Activity implements
      */
     private void checkQrCode(String result) {
         // TODO 扫描后的逻辑处理
-        Toast.makeText(this, "扫码结果=" + result, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "扫码结果:" + result, Toast.LENGTH_SHORT).show();
         finish();
     }
 
